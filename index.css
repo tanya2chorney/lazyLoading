@@ -1,0 +1,21 @@
+img {
+  height: 200px;
+
+  background-color: #f0f0f0;
+  display: block;
+  margin: 100px auto;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+img.loaded {
+  opacity: 1;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
